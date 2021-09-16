@@ -44,7 +44,7 @@ namespace Excercise_1
             this.click.Name = "click";
             this.click.Size = new System.Drawing.Size(102, 64);
             this.click.TabIndex = 0;
-            this.click.Text = "button1";
+            this.click.Text = "+";
             this.click.UseVisualStyleBackColor = true;
             this.click.Click += new System.EventHandler(this.click_Click);
             // 
@@ -54,7 +54,7 @@ namespace Excercise_1
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(93, 64);
             this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
+            this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -64,7 +64,7 @@ namespace Excercise_1
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(111, 64);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "/";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -74,7 +74,7 @@ namespace Excercise_1
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(98, 64);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "*";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
@@ -98,10 +98,11 @@ namespace Excercise_1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(303, 313);
+            this.listBox1.Location = new System.Drawing.Point(137, 313);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 84);
+            this.listBox1.Size = new System.Drawing.Size(490, 84);
             this.listBox1.TabIndex = 6;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // Welcome
             // 
