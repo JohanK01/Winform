@@ -8,3 +8,4 @@ C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.csproj.GenerateResource
 C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.csproj.CoreCompileInputs.cache
 C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.exe
 C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.pdb
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise_1.Welcome.resources
