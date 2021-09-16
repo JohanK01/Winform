@@ -1,0 +1,1 @@
+﻿Problemet är att filen krashar när man inte skriver in en siffra

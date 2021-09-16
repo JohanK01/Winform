@@ -36,7 +36,8 @@ namespace Excercise_1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int i, j;
+            
+            double i, j;
             i = int.Parse(textBox1.Text);
             j = int.Parse(textBox2.Text);
             listBox1.Items.Add($" {i} / {j} = {i / j}");
