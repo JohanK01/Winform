@@ -1,0 +1,10 @@
+C:\TE42122\Excercise 1\Excercise 1\bin\Debug\Excercise 1.exe.config
+C:\TE42122\Excercise 1\Excercise 1\bin\Debug\Excercise 1.exe
+C:\TE42122\Excercise 1\Excercise 1\bin\Debug\Excercise 1.pdb
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.csproj.AssemblyReference.cache
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise_1.Form1.resources
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise_1.Properties.Resources.resources
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.csproj.GenerateResource.cache
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.csproj.CoreCompileInputs.cache
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.exe
+C:\TE42122\Excercise 1\Excercise 1\obj\Debug\Excercise 1.pdb
