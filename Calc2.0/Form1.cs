@@ -28,7 +28,28 @@ namespace Calc2._0
 
         private void ButtonHandler(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Button btn = sender as Button;
+            double i = double.Parse(textBox1.Text);
+            double j = double.Parse(textBox2.Text);
+
+            switch (btn.Text)
+            {
+                case "+":
+                    
+                    break;
+
+                case "-":
+                    break;
+
+                case "/":
+                    break;
+
+                case "*":
+                    break;
+
+                default:
+                    break;
+            }
         }
     }
 }
