@@ -38,25 +38,30 @@ namespace Calc2._0
             switch (btn.Text)
             {
                 case "+":
-
+                   results = Raknare.Add(input1, input2);
+                    
                     break;
 
                 case "-":
+                    results = Raknare.Sub(input1, input2);
                     break;
 
                 case "/":
+                    results = Raknare.Div(input1, input2);
                     break;
 
                 case "*":
+                    results = Raknare.Mult(input1, input2);
                     break;
 
                 default:
                     break;
             }
+            Show_Result(input1, input2, results, btn.Text);
         }
-        private void Result(double input1, double input2, double results, string OP)
+        private void Show_Result(double input1, double input2, double results, string OP)
         {
-            listBox1.Items.Add($"{input1} {OP} {input2} {results}");
+            listBox1.Items.Add($"{input1} {OP} {input2} = {results}");
         } 
     }
 }
