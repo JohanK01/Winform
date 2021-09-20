@@ -12,8 +12,10 @@ namespace Calc2._0
 {
     public partial class Form1 : Form
     {
+        CalcEng Raknare = new CalcEng();
         public Form1()
         {
+
             InitializeComponent();
             button1.Text = "+";
             button2.Text = "-";
@@ -29,13 +31,14 @@ namespace Calc2._0
         private void ButtonHandler(object sender, EventArgs e)
         {
             Button btn = sender as Button;
-            double i = double.Parse(textBox1.Text);
-            double j = double.Parse(textBox2.Text);
-
+            double input1 = double.Parse(textBox1.Text);
+            double input2 = double.Parse(textBox2.Text);
+            double results = 0;
+            
             switch (btn.Text)
             {
                 case "+":
-                    
+
                     break;
 
                 case "-":
@@ -51,5 +54,9 @@ namespace Calc2._0
                     break;
             }
         }
+        private void Result(double input1, double input2, double results, string OP)
+        {
+            listBox1.Items.Add($"{input1} {OP} {input2} {results}");
+        } 
     }
 }
