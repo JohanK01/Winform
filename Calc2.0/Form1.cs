@@ -26,6 +26,19 @@ namespace Calc2._0
             button2.Click += new EventHandler(ButtonHandler);
             button3.Click += new EventHandler(ButtonHandler);
             button4.Click += new EventHandler(ButtonHandler);
+            textBox1.KeyPress += new KeyPressEventHandler(KController);
+            textBox2.KeyPress += new KeyPressEventHandler(KController);
+        }
+
+        private void KController(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar < '0' || e.KeyChar > '9')
+            {
+                if (((short)e.KeyChar) != 8)
+                {
+                    e.Handled = true;
+                }
+            }
         }
 
         private void ButtonHandler(object sender, EventArgs e)
